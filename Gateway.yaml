@@ -16,7 +16,7 @@ spring :
           predicates:
             - path: /projet/**
           filters:
-            - RewritePath: /projet/(?<path>.*) , /$\{path}
+            - RewritePath: /projet/(?<path>.*)  /$\{path}
              
             
          
